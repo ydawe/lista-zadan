@@ -47,11 +47,11 @@ window.addEventListener('load', () => {
 
 		task_edit_el.addEventListener('click', (e) => {
 			if (task_edit_el.innerText.toLowerCase() == "edit") {
-				task_edit_el.innerText = "Save";
+				task_edit_el.innerText = "Zapisz";
 				task_input_el.removeAttribute("readonly");
 				task_input_el.focus();
 			} else {
-				task_edit_el.innerText = "Edit";
+				task_edit_el.innerText = "Edytuj";
 				task_input_el.setAttribute("readonly", "readonly");
 			}
 		});
