@@ -107,7 +107,7 @@ main{
     float:right;
 }
 #tasks .task .content .text{
-    width:100%;
+    width:500px;
     font-size:1.125rem;
     color:var(--light);
     display:block;
