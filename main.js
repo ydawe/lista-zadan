@@ -46,7 +46,7 @@ window.addEventListener('load', () => {
 		input.value = '';
 
 		task_edit_el.addEventListener('click', (e) => {
-			if (task_edit_el.innerText.toLowerCase() == "edit") {
+			if (task_edit_el.innerText.toLowerCase() == "edytuj") {
 				task_edit_el.innerText = "Zapisz";
 				task_input_el.removeAttribute("readonly");
 				task_input_el.focus();
