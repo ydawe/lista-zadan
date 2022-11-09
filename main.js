@@ -44,7 +44,6 @@ window.addEventListener('load', () => {
 		list_el.appendChild(task_el);
 
 		input.value = '';
-
 		task_edit_el.addEventListener('click', (e) => {
 			if (task_edit_el.innerText.toLowerCase() == "edit") {
 				task_edit_el.innerText = "Save";
