@@ -17,7 +17,7 @@ body{
     display:flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: var(--dark);
+    background-color: #364151;
     color:#fff;
 
 }
@@ -29,9 +29,9 @@ header{
 }
 header h1{
     font-size:2.5rem;
-    font-weight: 300;
+    font-weight: 700;
     margin-bottom: 1rem;
-    color:var(--grey);
+    color:#fff;
     
 }
 #task-form{
@@ -59,7 +59,7 @@ input,button{
     color:var(--pink);
     font-size: 1.25rem;
     font-weight: 700;
-    background-image: linear-gradient(to right,rgb(88, 88, 255),rgb(134, 117, 163));
+    background-image: linear-gradient(to right,rgb(223, 223, 223),rgb(134, 117, 163));
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
     cursor:pointer;
@@ -85,7 +85,7 @@ main{
 }
 .task-list h2{
     font-size: 1.5rem;
-    font-weight: 300;
+    font-weight: 700;
     color:var(--gray);
     margin-bottom:1rem;
 
@@ -140,7 +140,7 @@ main{
     opacity:0.6;
 }
 .task .actions .edit{
-    background-image: linear-gradient(to right,rgb(88, 88, 255),rgb(134, 117, 163));
+    background-image: linear-gradient(to right,rgb(255, 255, 255),rgb(134, 117, 163));
     -webkit-background-clip:text;
     -webkit-text-fill-color: transparent;
 }
